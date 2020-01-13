@@ -59,7 +59,7 @@ har stemt nei.
 
 ```microbit
 input.onButtonPressed(Button.B, function () {
-    radio.sendNumber(255)
+    radio.sendNumber(0)
     basic.showIcon(IconNames.No)
 })
 ```
